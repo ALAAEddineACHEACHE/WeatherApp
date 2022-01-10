@@ -3,7 +3,8 @@
  let cityname="Montreal";//$("#cityname").val();
  let APIkey="51f3a0a590fa4c63481b5e88e2dd5b5d";
  let APIurl=`https://api.openweathermap.org/data/2.5/weather?q=${cityname}&appid=${APIkey}&units=metric`;
-              $.ajax({
+             //this is ajax
+ $.ajax({
                  url:APIurl,
                  method:"GET",
                  dataType:"JSON",
